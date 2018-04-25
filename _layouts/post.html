@@ -1,0 +1,197 @@
+{% include headerPost.html %}
+
+    <!--Blog section-->
+    <section>
+        <div class="container-fluid grey lighten-4">
+            <hr class="my-5">
+            <div class="container">
+
+                <!--Blog-->
+                <div class="row mt-5 pt-3">
+
+                    <!--Main listing-->
+                    <div class="col-lg-8 col-12 mt-1 mx-lg-4">
+
+                        <!--Section: Blog v.3-->
+                        <section class="extra-margins pb-5  text-lg-left">
+
+                            <!--Grid row-->
+                            <div class="row mb-4">
+
+                                <!--Grid column-->
+                                <div class="col-md-12">
+
+                                    <!--Card-->
+                                    <div class="card">
+                                        <!--/.Card image-->
+
+                                        <!--Card content-->
+                                        <div class="card-body">
+                                            <!--Title-->
+                                            <h4 class="card-title">
+                                                <strong>{{ page.title }}</strong>
+                                            </h4>
+                                            <hr>
+                                            <!--Text-->
+                                            {{ content }}
+                                            <hr>
+
+                                            <!--Grid row-->
+                                            <div class="row mb-4">
+
+                                                <!--Grid column-->
+                                                <div class="col-md-12 text-center">
+
+                                                    <h4 class="text-center font-weight-bold dark-grey-text mt-3 mb-3">
+                                                        <strong>Share this post: </strong>
+                                                    </h4>
+
+                                                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">
+                                                      <button type="button" class="btn btn-fb btn-sm waves-effect waves-light">
+                                                        <i class="fa fa-facebook left"></i> Facebook</button>
+                                                    </a>
+                                                    <!--Twitter-->
+                                                    <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}">
+                                                      <button type="button" class="btn btn-tw btn-sm waves-effect waves-light">
+                                                          <i class="fa fa-twitter left"></i> Twitter</button>
+                                                    </a>
+                                                    <!--Google +-->
+                                                    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}">
+                                                      <button type="button" class="btn btn-gplus btn-sm waves-effect waves-light">
+                                                          <i class="fa fa-google-plus left"></i> Google +</button>
+                                                    </a>
+
+                                                    <!--Linkedin-->
+                                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}">
+                                                      <button type="button" class="btn btn-li btn-sm waves-effect waves-light">
+                                                          <i class="fa fa-linkedin left"></i> LinkedIn</button>
+                                                    </a>
+                                                </div>
+                                                <!--Grid column-->
+
+                                            </div>
+                                            <!--Grid row-->
+
+                                        </div>
+                                        <!--/.Card content-->
+
+                                    </div>
+                                    <!--/.Card-->
+
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <!--/Grid row-->
+
+                        </section>
+                        <!--Section: Blog v.3-->
+
+                    </div>
+                    <!--Main listing-->
+
+                    <!--Sidebar-->
+                    <div class="col-lg-3 col-12 mt-1">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img src="{{ site.url }}/img/{{ page.authorImg }}" class="card-img-top" alt="">
+                                <a>
+                                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                                </a>
+                            </div>
+                            <!--/.Card image-->
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h6 class="card-title dark-grey-text text-center grey lighten-4 py-2">
+                                    <strong>{{ page.author }}</strong>
+                                </h6>
+                                <!--Description-->
+                                <p class="mt-3 dark-grey-text font-small text-center">
+                                    <em>{{ page.authorDesc }}
+                                    </em>
+                                </p>
+
+                                <ul class="list-unstyled list-inline-item circle-icons list-unstyled flex-center">
+                                    <!--Facebook-->
+                                    <li>
+                                        <a class="fb-ic" href="{{ page.authorFb }}">
+                                            <i class="fa fa-facebook"> </i>
+                                        </a>
+                                    </li>
+                                    <!--Twitter-->
+                                    <li>
+                                        <a class="tw-ic"  href="{{ page.authorIns }}">
+                                            <i class="fa fa-instagram mx-3"> </i>
+                                        </a>
+                                    </li>
+                                    <!--Google +-->
+                                    <li>
+                                        <a class="gplus-ic"  href="{{ page.authorGp }}">
+                                            <i class="fa fa-google-plus"> </i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--/.Card content-->
+
+                        </div>
+                        <!--/.Card-->
+
+
+
+                        <!--Newsletter-->
+                        <section class="my-5">
+
+                            <!--/ Card -->
+                            <div class="card card-body pb-0">
+                                <div class="single-post">
+
+                                    <p class="font-weight-bold dark-grey-text text-center spacing grey lighten-4 py-2 mb-4">
+                                        <strong>NEWSLETTER</strong>
+                                    </p>
+
+                                    <!--Grid row-->
+                                    <div class="row mt-4">
+                                        <!--Grid column-->
+                                        <div class="col-md-12">
+
+                                            <div class="input-group md-form form-sm form-3 pl-0">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text white black-text" id="basic-addon9">@</span>
+                                                </div>
+                                                <input type="text" class="form-control mt-0 black-border rgba-white-strong" placeholder="Username" aria-describedby="basic-addon9">
+                                            </div>
+
+                                            <button type="button" class="btn btn-grey btn-block mb-4 mt-4 waves-effect waves-light">Sign up</button>
+
+                                        </div>
+                                        <!--Grid column-->
+                                    </div>
+                                    <!--Grid row-->
+
+                                </div>
+                            </div>
+
+                        </section>
+                        <!--Newsletter-->
+
+                    </div>
+                    <!--Sidebar-->
+
+                </div>
+                <!--Blog-->
+
+            </div>
+
+    </div></section>
+    <!--Blog section-->
+
+
+
+    {% include footer.html %}
