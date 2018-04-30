@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>{{ page.title }}</title>
+    <title>Contact Us</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ site.url }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost:4000/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Material Design Bootstrap -->
-    <link href="{{ site.url }}/css/mdb.min.css" rel="stylesheet">
+    <link href="http://localhost:4000/css/mdb.min.css" rel="stylesheet">
 
 </head>
 
@@ -35,13 +35,13 @@
                       <ul class="navbar-nav">
 
                           <li class="nav-item dropdown ml-4 mb-0">
-                              <a href="{{ site.url }}" class="nav-link waves-effect waves-light dark-grey-text font-weight-bold " aria-haspopup="true" aria-expanded="true"> HOME </a>
+                              <a href="http://localhost:4000" class="nav-link waves-effect waves-light dark-grey-text font-weight-bold " aria-haspopup="true" aria-expanded="true"> HOME </a>
                           </li>
                           <li class="nav-item dropdown ml-4  mb-0">
-                              <a href="{{ site.url }}/about.html" class="nav-link waves-effect waves-light dark-grey-text font-weight-bold" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                              <a href="http://localhost:4000/about.html" class="nav-link waves-effect waves-light dark-grey-text font-weight-bold" aria-haspopup="true" aria-expanded="false">ABOUT</a>
                           </li>
                           <li class="nav-item ml-4 mb-0">
-                              <a class="nav-link waves-effect waves-light dark-grey-text font-weight-bold" href="{{ site.url }}/contact.html">CONTACT
+                              <a class="nav-link waves-effect waves-light dark-grey-text font-weight-bold" href="http://localhost:4000/contact.html">CONTACT
                                   <span class="sr-only">(current)</span>
                               </a>
                           </li>
@@ -102,7 +102,7 @@
                         <!--First slide-->
                         <div class="carousel-item active">
                             <div class="view h-100">
-                                <img class="d-block h-100 w-lg-100" src="{{ site.url }}/img/bg_main.jpg" alt="First slide">
+                                <img class="d-block h-100 w-lg-100" src="http://localhost:4000/img/bg_main.jpg" alt="First slide">
                                 <div class="mask rgba-indigo-light">
                                     <!-- Caption -->
                                     <div class="full-bg-img flex-center white-text">
@@ -124,7 +124,7 @@
                         <!--Second slide-->
                         <div class="carousel-item h-100">
                             <div class="view h-100">
-                                <img class="d-block h-100 w-lg-100" src="{{ site.url }}/img/city10.jpg" alt="Second slide">
+                                <img class="d-block h-100 w-lg-100" src="http://localhost:4000/img/city10.jpg" alt="Second slide">
                                 <div class="mask rgba-stylish-light">
                                     <!-- Caption -->
                                     <div class="full-bg-img flex-center white-text">
@@ -145,7 +145,7 @@
                         <!--Third slide-->
                         <div class="carousel-item">
                             <div class="view h-100">
-                                <img class="d-block h-100 w-lg-100" src="{{ site.url }}/img/city12.jpg" alt="Third slide">
+                                <img class="d-block h-100 w-lg-100" src="http://localhost:4000/img/city12.jpg" alt="Third slide">
                                 <div class="mask rgba-indigo-light">
                                     <!-- Caption -->
                                     <div class="full-bg-img flex-center white-text">
@@ -180,3 +180,154 @@
 
             </section>
             <!--/Intro-->
+
+
+<!--Blog section-->
+<section>
+
+<!-- Card -->
+<div class="card mx-xl-5">
+
+  <!-- Card body -->
+  <div class="card-body">
+
+      <!-- Default form subscription -->
+
+        <!-- Default form contact -->
+        <form method="POST" action="https://formspree.io/harshmathur04@gmail.com">
+            <p class="h2 text-center mb-5">Write to us</p>
+
+            <!-- Default input name -->
+            <label for="defaultFormContactNameEx" class="grey-text">Your name</label>
+            <input type="text" id="defaultFormContactNameEx" class="form-control" required>
+
+            <br>
+
+            <!-- Default input email -->
+            <label for="defaultFormContactEmailEx" class="grey-text">Your email</label>
+            <input type="email" name="_replyto" id="defaultFormContactEmailEx" class="form-control" required>
+
+            <br>
+
+            <!-- Default input subject -->
+            <label for="defaultFormContactSubjectEx" class="grey-text">Subject</label>
+            <input type="text" id="defaultFormContactSubjectEx" class="form-control" required>
+
+            <br>
+
+            <!-- Default textarea message -->
+            <label for="defaultFormContactMessageEx" class="grey-text">Your message</label>
+            <textarea type="text" id="defaultFormContactMessageEx" class="form-control" rows="3" required></textarea>
+
+            <input type="hidden" name="_next" value="http://localhost:4000" />
+
+            <div class="text-center mt-4">
+                <button class="btn btn-outline-warning" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
+            </div>
+        </form>
+        <!-- Default form contact -->
+
+      <!-- Default form subscription -->
+
+  </div>
+  <!-- Card body -->
+
+</div>
+<!-- Card -->
+
+</section>
+<!--Blog section-->
+
+
+
+    <!--Footer-->
+    <footer class="page-footer stylish-color mt-0 pt-0 text-center text-md-left">
+
+        <!--Footer Links-->
+        <div class="container">
+
+            <!--First row-->
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-12 py-4">
+
+                    <div class="footer-socials mb-5 flex-center">
+
+                        <!--Facebook-->
+                        <a class="fb-ic">
+                            <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-lg"> </i>
+                        </a>
+                        <!--Twitter--
+                        <a class="tw-ic">
+                            <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-lg"> </i>
+                        </a-->
+                        <!--Google +-->
+                        <a class="gplus-ic">
+                            <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-lg"> </i>
+                        </a>
+                        <!--Linkedin-->
+                        <a class="li-ic">
+                            <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-lg"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-lg"> </i>
+                        </a>
+                        <!--Pinterest--
+                        <a class="pin-ic">
+                            <i class="fa fa-pinterest fa-lg white-text fa-lg"> </i>
+                        </a-->
+                    </div>
+                </div>
+                <!--/First column-->
+            </div>
+            <!--/First row-->
+        </div>
+        <!--/Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright text-center py-3">
+            <div class="container-fluid">
+                © 2018 Copyright: <a href="" > miniBlogging.me </a>
+            </div>
+        </div>
+        <!--/Copyright-->
+
+    </footer>
+    <!--/Footer-->
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="http://localhost:4000/js/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="http://localhost:4000/js/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="http://localhost:4000/js/mdb.min.js"></script>
+
+    <script type="text/javascript">
+        /* WOW.js init */
+        new WOW().init();
+    </script>
+
+    <script>
+        // Material Select Initialization
+        $(document).ready(function () {
+            $('.mdb-select').material_select();
+        });
+    </script>
+    <script>
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("../../../mdb-addons/mdb-lightbox-ui.html");
+        });
+    </script>
+
+
+<div class="hiddendiv common"></div></body></html>
+
