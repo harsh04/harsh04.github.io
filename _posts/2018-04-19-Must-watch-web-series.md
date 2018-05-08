@@ -4,9 +4,9 @@ title: "Must watch web series"
 author: "Priyanka valechha"
 authorDesc: "Hello, I'm Priyanka. I love travel around the world and take photos of landscapes and local people."
 authorImg:  "priyanka_valechha.jpg"
-authorFb:
-authorIns:
-authorGp:
+authorFb: "https://facebook.com/priyanka.valecha.148"
+authorIns: "https://www.instagram.com/priyanka_valechha/"
+authorGp: "https://plus.google.com/+priyankavalechha?rel=author"
 description: "In this era of YouTube, Netflix and Amazon prime, we get to watch the most relatable content. It has provided a platform to a dark horse to emerge in a way, to connect to people and put up a point which lies in every single being's conscience.
 Zillion of web series and videos go live each minute on YouTube and offer a wide variety for us normal people to watch.
 So, if you are a web series maniac (just like me), these shows are a must watch."
