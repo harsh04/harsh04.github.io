@@ -11,15 +11,6 @@ description: "I haven't heard of a person who hasn't heard a comment regarding t
 mainImage: "body_type.jpg"
 ---
 <p style="text-align: justify;">
-In this era of YouTube, Netflix and Amazon prime, we get to watch the most relatable content. It has provided a platform to a dark horse to emerge in a way, to connect to people and put up a point which lies in every single being's conscience.
-Zillion of web series and videos go live each minute on YouTube and offer a wide variety for us normal people to watch.
-So, if you are a web series maniac (just like me), these shows are a must watch.
-</p>
-<h4>FLAMES</h4>
-<div class="col-md-12 my-4">
-    <img src="{{ site.url }}/img/posts/flames.png " class="img-fluid z-depth-1 rounded-0" alt="sample image">
-</div>
-<p style="text-align: justify;">
 I haven't heard of a person who hasn't heard a comment regarding their body because in a society we live, there is a perfect model of a person being some feet tall, some inches wide and that perfect fair face. And it is not possible for everyone to fit in that model, because every person has different genes, diet and lifestyle. And why should someone fit? There lies a bigger question? Why can't one be oneself? 
 </p>
 <p style="text-align: justify;">
